@@ -21,7 +21,7 @@ final class AppHelper{
             backView.backgroundColor = UIColor(red: 0.0, green: 0.0, blue: 0.0, alpha: 0.25)
             backView.tag = 700
             actInd.frame = CGRect(x: 0, y: 0, width: 80, height: 80)
-            actInd.backgroundColor = .white
+            actInd.backgroundColor = .systemBackground
             actInd.color = .accent
             actInd.layer.cornerRadius = 16
             actInd.center = backView.center
