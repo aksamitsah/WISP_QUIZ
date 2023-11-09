@@ -18,7 +18,7 @@ final class QuizPlaygroundViewModel{
         
         switch scorePercentage {
         case 0:
-            return "Don't worry; you're just getting started. 0% completion means you have a journey ahead."
+            return "Don't worry, you're just getting started. 0% completion means you have a journey ahead."
         case 1..<20:
             return "Progress is progress! You're at \(scorePercentage)% completion."
         case 20..<40:

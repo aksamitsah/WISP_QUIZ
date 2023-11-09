@@ -335,12 +335,16 @@
                                 <subviews>
                                     <imageView clipsSubviews="YES" userInteractionEnabled="NO" contentMode="scaleAspectFit" horizontalHuggingPriority="251" verticalHuggingPriority="251" image="ic_cup" translatesAutoresizingMaskIntoConstraints="NO" id="P3U-SV-SN9">
                                         <rect key="frame" x="0.0" y="0.0" width="373" height="200"/>
+                                        <accessibility key="accessibilityConfiguration" hint="Winner Trophy" label="image of Trophy">
+                                            <bool key="isElement" value="YES"/>
+                                        </accessibility>
                                         <constraints>
                                             <constraint firstAttribute="height" constant="200" id="25n-dZ-ARr"/>
                                         </constraints>
                                     </imageView>
                                     <label opaque="NO" userInteractionEnabled="NO" contentMode="left" horizontalHuggingPriority="251" verticalHuggingPriority="251" text="Congratulations" textAlignment="center" lineBreakMode="tailTruncation" baselineAdjustment="alignBaselines" adjustsFontSizeToFit="NO" translatesAutoresizingMaskIntoConstraints="NO" id="yce-fg-9il">
                                         <rect key="frame" x="0.0" y="209.99999999999997" width="373" height="40.666666666666657"/>
+                                        <accessibility key="accessibilityConfiguration" hint="you just compleate your quiz" label="Congratulations"/>
                                         <fontDescription key="fontDescription" style="UICTFontTextStyleTitle0"/>
                                         <color key="textColor" systemColor="systemGreenColor"/>
                                         <nil key="highlightedColor"/>

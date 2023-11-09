@@ -59,6 +59,7 @@ class QuizCollectionViewCell: UICollectionViewCell {
     func updateValue(label: UILabel, view: UIView, option: String, value: String){
         
         label.text = "\(option). \(value)"
+        
         view.isAccessibilityElement = true
         view.accessibilityLabel = "\(option). \(value)"
         view.accessibilityHint = "\(option). \(value)"

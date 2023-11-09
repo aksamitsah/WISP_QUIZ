@@ -20,6 +20,16 @@ class QuizResultVC: BaseVC {
     override func viewDidLoad() {
         super.viewDidLoad()
         
+        updateUI()
+        
+        playAgainBtn.addTapGesture {
+            self.moveToRootVC()
+        }
+
+    }
+    
+    func updateUI(){
+        
         if let ds = data as? [String], ds.count == 3{
             
             let text = "\(ds[0]) / \(ds[1])"
@@ -32,14 +42,14 @@ class QuizResultVC: BaseVC {
             attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.accent, range: rangeOfBlackText)
 
             scoreBoardLbl.attributedText = attributedString
+            scoreBoardLbl.voiceOverSetup(isEnable: true, accessibilityHint: "you just score \(ds[0]) out of \(ds[1])")
             
             recomendedMsgLbl.text = "\(ds[2])"
+            recomendedMsgLbl.voiceOverSetup(isEnable: true, accessibilityHint: "")
+            
+            
         }
         
-        playAgainBtn.addTapGesture {
-            self.moveToRootVC()
-        }
-
     }
     
 }
