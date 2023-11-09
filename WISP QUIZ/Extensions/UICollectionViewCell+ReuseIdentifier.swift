@@ -10,10 +10,8 @@ import Foundation
 
 import UIKit
 
-extension UICollectionView {
-    
-    static var storyboardIdentifier: String {
-        return String(describing: self)
+extension UICollectionViewCell {
+    static var reuseIdentifier: String {
+        String(describing: self)
     }
-    
 }

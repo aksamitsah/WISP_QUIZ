@@ -7,23 +7,39 @@
 
 import UIKit
 
-class QuizResultVC: UIViewController {
+class QuizResultVC: BaseVC {
 
-    override func viewDidLoad() {
-        super.viewDidLoad()
-
-        // Do any additional setup after loading the view.
+    @IBOutlet weak var scoreBoardLbl: UILabel!
+    @IBOutlet weak var recomendedMsgLbl: UILabel!
+    @IBOutlet weak var playAgainBtn: UIButton!{
+        didSet{
+            playAgainBtn.makeCircular()
+        }
     }
     
+    override func viewDidLoad() {
+        super.viewDidLoad()
+        
+        if let ds = data as? [String], ds.count == 3{
+            
+            let text = "\(ds[0]) / \(ds[1])"
+            let attributedString = NSMutableAttributedString(string: text)
 
-    /*
-    // MARK: - Navigation
+            let rangeOfRedText = (text as NSString).range(of: ds[0])
+            attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.accent, range: rangeOfRedText)
 
-    // In a storyboard-based application, you will often want to do a little preparation before navigation
-    override func prepare(for segue: UIStoryboardSegue, sender: Any?) {
-        // Get the new view controller using segue.destination.
-        // Pass the selected object to the new view controller.
+            let rangeOfBlackText = (text as NSString).range(of: ds[1])
+            attributedString.addAttribute(NSAttributedString.Key.foregroundColor, value: UIColor.accent, range: rangeOfBlackText)
+
+            scoreBoardLbl.attributedText = attributedString
+            
+            recomendedMsgLbl.text = "\(ds[2])"
+        }
+        
+        playAgainBtn.addTapGesture {
+            self.moveToRootVC()
+        }
+
     }
-    */
-
+    
 }

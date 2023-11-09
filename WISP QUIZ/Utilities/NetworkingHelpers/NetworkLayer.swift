@@ -1,5 +1,5 @@
 //
-//  EndPoint.swift
+//  NetworkLayer.swift
 //  WISP QUIZ
 //
 //  Created by Amit Shah on 04/11/23.
@@ -7,45 +7,97 @@
 
 import Foundation
 
-enum HTTPMethods: String {
+enum HTTPMethod: String {
+    case delete = "DELETE"
     case get = "GET"
+    case patch = "PATCH"
     case post = "POST"
+    case put = "PUT"
 }
 
-protocol EndPointType {
-    var path: String { get }
+enum HTTPScheme: String {
+    case http
+    case https
+}
+
+
+protocol API {
+    var scheme: HTTPScheme { get }
     var baseURL: String { get }
-    var url: URL? { get }
-    var method: HTTPMethods { get }
-}
-
-enum EndPointItems {
-    case products //Modules
+    var path: String { get }
+    var parameters: [URLQueryItem] { get }
+    var method: HTTPMethod { get }
 }
 
 
-extension EndPointItems: EndPointType {
+enum OpentdbAPI {
+    case categoryList
+    case categoryCountLookup(category: Int)
+    case globalCategoryCountLookup
+    case generateQuiz(amount: Int, category: Int?, difficulty: String?, type: String?)
+}
+
+extension OpentdbAPI: API{
     
-    var path: String {
+    var scheme: HTTPScheme{
         switch self {
-        case .products:
-            return "products"
+        case .categoryList, .categoryCountLookup, .globalCategoryCountLookup, .generateQuiz:
+            return .https
         }
     }
     
-    var baseURL: String {
-        return "https://fakestoreapi.com/"
+    var baseURL: String{
+        return "opentdb.com"
     }
     
-    var url: URL? {
-        return URL(string: "\(baseURL)\(path)")
-    }
-    
-    var method: HTTPMethods {
+    var path: String{
         switch self {
-        case .products:
+        case .categoryList:
+            return "/api_category.php"
+        case .categoryCountLookup:
+            return "/api_count.php"
+        case .globalCategoryCountLookup:
+            return "/api_count_global.php"
+        case .generateQuiz:
+            return "/api.php"
+        }
+    }
+    
+    var parameters: [URLQueryItem]{
+        
+        var params: [URLQueryItem] = []
+        
+        switch self {
+            
+        case .categoryList: break
+        case .categoryCountLookup(let category):
+            params.append(URLQueryItem(name: "category", value: "\(category)"))
+        case .globalCategoryCountLookup: break
+        case .generateQuiz(let amount,let category,let difficulty,let type):
+            
+            params.append(URLQueryItem(name: "amount", value: "\(amount)"))
+
+            if let category{
+                params.append(URLQueryItem(name: "category", value: "\(category)"))
+            }
+            
+            if let difficulty{
+                params.append(URLQueryItem(name: "difficulty", value: "\(difficulty)"))
+            }
+            
+            if let type{
+                params.append(URLQueryItem(name: "type", value: "\(type)"))
+            }
+        }
+        
+        return params
+    }
+    
+    var method: HTTPMethod{
+        switch self {
+        case .categoryList, .categoryCountLookup, .globalCategoryCountLookup, .generateQuiz:
             return .get
         }
     }
+    
 }
-

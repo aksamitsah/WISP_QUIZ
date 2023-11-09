@@ -6,3 +6,9 @@
 //
 
 import Foundation
+
+struct StoreResult {
+    var value: String = ""
+    var isCorrect: Bool = false
+    var loaction: Int = 0
+}

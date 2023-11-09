@@ -10,11 +10,19 @@ import UIKit
 class BaseVC: UIViewController {
     
     var data: Any?
-    
-    func openVC<T: BaseVC>(_ controllerType: T.Type, data: Any?) {
-        if let vc = UIStoryboard(name: "Quiz", bundle: nil).instantiateViewController(withIdentifier: controllerType.storyboardIdentifier) as? T {
+
+    func openVC<T: BaseVC>(_ controllerType: T.Type, data: Any?, animation: Bool = true) {
+        if let vc = UIStoryboard(name: "Quiz", bundle: Bundle.main).instantiateViewController(withIdentifier: controllerType.storyboardIdentifier) as? T {
             vc.data = data
-            present(vc, animated: true)
+            navigationController?.pushViewController(vc, animated: animation)
         }
+    }
+    
+    func closeVC(animation: Bool = true){
+        navigationController?.popViewController(animated: animation)
+    }
+    
+    func moveToRootVC(animation: Bool = true){
+        navigationController?.popToRootViewController(animated: animation)
     }
 }

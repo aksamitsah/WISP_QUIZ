@@ -1,0 +1,1061 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<Bucket
+   uuid = "0CEC7D19-31E8-49D3-8495-A71DFE7A9BF0"
+   type = "1"
+   version = "2.0">
+   <Breakpoints>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "74DD9A4A-82C5-45BE-809A-6E7A949E93D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/StartScreenVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "setupBinders()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "74DD9A4A-82C5-45BE-809A-6E7A949E93D1 - 2c240238d723e0b0"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Combine.Subscribers.Completion&lt;Swift.Never&gt;) -&gt; () in WISP_QUIZ.StartScreenVC.setupBinders() -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/StartScreenVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "51"
+                  endingLineNumber = "51"
+                  offsetFromSymbolStart = "264">
+               </Location>
+               <Location
+                  uuid = "74DD9A4A-82C5-45BE-809A-6E7A949E93D1 - c268a09bf2bc2a9c"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;WISP_QUIZ.StartScreenViewModelObserver&gt;) -&gt; () in WISP_QUIZ.StartScreenVC.setupBinders() -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/StartScreenVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "50"
+                  endingLineNumber = "50"
+                  offsetFromSymbolStart = "284">
+               </Location>
+               <Location
+                  uuid = "74DD9A4A-82C5-45BE-809A-6E7A949E93D1 - c268a09bf2bc2918"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Optional&lt;WISP_QUIZ.StartScreenViewModelObserver&gt;) -&gt; () in WISP_QUIZ.StartScreenVC.setupBinders() -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/StartScreenVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "46"
+                  endingLineNumber = "46"
+                  offsetFromSymbolStart = "1056">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1BBFBAEA-3E26-4F37-9ED7-41C35B5F6E12"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "1BBFBAEA-3E26-4F37-9ED7-41C35B5F6E12 - 85e8c6f71768dfe9"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "1472">
+               </Location>
+               <Location
+                  uuid = "1BBFBAEA-3E26-4F37-9ED7-41C35B5F6E12 - 3e3d5f29450729bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "1BBFBAEA-3E26-4F37-9ED7-41C35B5F6E12 - 3e3d5f2945072a71"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "106"
+                  endingLineNumber = "106"
+                  offsetFromSymbolStart = "2416">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E260F700-760C-406C-9AD7-08855273344E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E260F700-760C-406C-9AD7-08855273344E - 3e3d5f29450729bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "524">
+               </Location>
+               <Location
+                  uuid = "E260F700-760C-406C-9AD7-08855273344E - 3e3d5f29450729bf"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "108"
+                  endingLineNumber = "108"
+                  offsetFromSymbolStart = "632">
+               </Location>
+               <Location
+                  uuid = "E260F700-760C-406C-9AD7-08855273344E - 3e3d5f2945072990"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "107"
+                  endingLineNumber = "107"
+                  offsetFromSymbolStart = "2572">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C1463EC0-F1F3-4B3D-8D66-049AED0804D7"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "C1463EC0-F1F3-4B3D-8D66-049AED0804D7 - 3e3d5f2945072979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "C1463EC0-F1F3-4B3D-8D66-049AED0804D7 - 3e3d5f294507295a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "113"
+                  endingLineNumber = "113"
+                  offsetFromSymbolStart = "1996">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E9B32018-F38E-43E2-A48E-E3AF9684636F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "73"
+            endingLineNumber = "73"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "E9B32018-F38E-43E2-A48E-E3AF9684636F - 3e3d5f2945072979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "728">
+               </Location>
+               <Location
+                  uuid = "E9B32018-F38E-43E2-A48E-E3AF9684636F - 3e3d5f2945072979"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "114"
+                  endingLineNumber = "114"
+                  offsetFromSymbolStart = "2132">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "571E3E05-B862-429C-9AF8-93054C9D920E"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "80"
+            endingLineNumber = "80"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "571E3E05-B862-429C-9AF8-93054C9D920E - 3e3d5f2945072861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1416">
+               </Location>
+               <Location
+                  uuid = "571E3E05-B862-429C-9AF8-93054C9D920E - 3e3d5f2945072842"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "121"
+                  endingLineNumber = "121"
+                  offsetFromSymbolStart = "1688">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16FF4DC1-1B9F-4A92-B4D4-81854039660D"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "79"
+            endingLineNumber = "79"
+            landmarkName = "request(endpoint:completion:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "16FF4DC1-1B9F-4A92-B4D4-81854039660D - 3e3d5f2945072861"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "122"
+                  endingLineNumber = "122"
+                  offsetFromSymbolStart = "1416">
+               </Location>
+               <Location
+                  uuid = "16FF4DC1-1B9F-4A92-B4D4-81854039660D - 3e3d5f2945072823"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 @Sendable (Swift.Optional&lt;Foundation.Data&gt;, Swift.Optional&lt;__C.NSURLResponse&gt;, Swift.Optional&lt;Swift.Error&gt;) -&gt; () in static WISP_QUIZ.APIManager.request&lt;&#x3c4;_0_0 where &#x3c4;_0_0: Swift.Decodable&gt;(endpoint: WISP_QUIZ.API, completion: (Swift.Result&lt;&#x3c4;_0_0, WISP_QUIZ.APIError&gt;) -&gt; ()) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Utilities/NetworkingHelpers/APIManager.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "120"
+                  endingLineNumber = "120"
+                  offsetFromSymbolStart = "1528">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "8273F5E4-517C-4A00-AE77-A037F9B10F73"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "29"
+            endingLineNumber = "29"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "9DC3F155-C4CC-498B-B59A-8E2E7D1B4C7B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/StartScreenVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "38"
+            endingLineNumber = "38"
+            landmarkName = "setupBinders()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A07D916F-E439-48F9-B997-CBB3426D65E8"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "83"
+            endingLineNumber = "83"
+            landmarkName = "collectionView(_:cellForItemAt:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "84729E13-A4D6-4E3E-BAE9-F0CFD1C6AD3C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "71"
+            endingLineNumber = "71"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "84729E13-A4D6-4E3E-BAE9-F0CFD1C6AD3C - f801028575e2eed"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizCollectionViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/cells/QuizCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "69"
+                  endingLineNumber = "69"
+                  offsetFromSymbolStart = "140">
+               </Location>
+               <Location
+                  uuid = "84729E13-A4D6-4E3E-BAE9-F0CFD1C6AD3C - d5a8b0d58a711ad6"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WISP_QUIZ.QuizCollectionViewCell.awakeFromNib() -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/cells/QuizCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "70"
+                  endingLineNumber = "70"
+                  offsetFromSymbolStart = "72">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E7F99C73-F33B-4DA1-A8F7-51095F8868D4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "72"
+            endingLineNumber = "72"
+            landmarkName = "awakeFromNib()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "04AC5CF0-DD4E-4BF8-860A-15FA624E04D1"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "91"
+            endingLineNumber = "91"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "330D0CDE-7496-41F3-82FE-A525B17E2482"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "95"
+            endingLineNumber = "95"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "366382CC-C353-41D4-AA1A-EB536B0F91B4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "140"
+            endingLineNumber = "140"
+            landmarkName = "updateAnswerCell(_:type:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "5C7CD757-BB89-4BC7-A48A-DD1EF62B19F0"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "143"
+            endingLineNumber = "143"
+            landmarkName = "updateAnswerCell(_:type:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "5C7CD757-BB89-4BC7-A48A-DD1EF62B19F0 - f01c789d4c141879"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WISP_QUIZ.QuizCollectionViewCell.updateAnswerCell(_: __C.UIView, type: Swift.Bool) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/cells/QuizCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "580">
+               </Location>
+               <Location
+                  uuid = "5C7CD757-BB89-4BC7-A48A-DD1EF62B19F0 - f01c789d4c141879"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 () -&gt; () in WISP_QUIZ.QuizCollectionViewCell.updateAnswerCell(_: __C.UIView, type: Swift.Bool) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/cells/QuizCollectionViewCell.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "134"
+                  endingLineNumber = "134"
+                  offsetFromSymbolStart = "700">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "E001CF3E-4DB8-4119-A980-7E1C87DA191C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "112"
+            endingLineNumber = "112"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "792E1F7A-07FE-4842-AF7D-6E7F62AB8013"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "113"
+            endingLineNumber = "113"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CEFA90EA-35EC-4DBC-9869-AE691899508C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "111"
+            endingLineNumber = "111"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "F88AAC45-203F-4580-A85A-CB0075F9353B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/cells/QuizCollectionViewCell.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "99"
+            endingLineNumber = "99"
+            landmarkName = "handleUserClick(view:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4F11FB4B-6503-4B08-9749-DA182B069046"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "61"
+            endingLineNumber = "61"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "154AA662-7307-427B-B56D-762CB6FA79E9"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "57"
+            endingLineNumber = "57"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1F76C182-E041-4F96-86CA-98112BC3E570"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "63"
+            endingLineNumber = "63"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "80736602-24CC-444B-BCFF-CEC7D8AF519B"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "58"
+            endingLineNumber = "58"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CB258A8-9F20-4FF7-BA49-8766FBDF301F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "59"
+            endingLineNumber = "59"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "1CEFEED0-D662-45B3-8932-743757C50633"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "62"
+            endingLineNumber = "62"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "CFB405E1-8F1C-4DD4-A373-3E61C75C7ACB"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "64"
+            endingLineNumber = "64"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "CFB405E1-8F1C-4DD4-A373-3E61C75C7ACB - c6c3add6ccdb5b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundVC.continueBtnTap(Any) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/QuizPlaygroundVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "CFB405E1-8F1C-4DD4-A373-3E61C75C7ACB - c6c3add6ccdb5bb5"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundVC.continueBtnTap(Any) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/QuizPlaygroundVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "63"
+                  endingLineNumber = "63"
+                  offsetFromSymbolStart = "1696">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "766432B7-D7DA-46B6-89E5-0D9BD37F6F19"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "66"
+            endingLineNumber = "66"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "889E1FD6-CA28-46DA-9CEA-D96012691766"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizPlaygroundVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "65"
+            endingLineNumber = "65"
+            landmarkName = "continueBtnTap(_:)"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "889E1FD6-CA28-46DA-9CEA-D96012691766 - c6c3add6ccdb5b96"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundVC.continueBtnTap(Any) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/QuizPlaygroundVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "64"
+                  endingLineNumber = "64"
+                  offsetFromSymbolStart = "864">
+               </Location>
+               <Location
+                  uuid = "889E1FD6-CA28-46DA-9CEA-D96012691766 - c6c3add6ccdb5bf7"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundVC.continueBtnTap(Any) -&gt; ()"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/Views/QuizPlaygroundVC.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "65"
+                  endingLineNumber = "65"
+                  offsetFromSymbolStart = "1724">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "A4FF8733-993E-4B92-B96A-6991A1398027"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizResultVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "23"
+            endingLineNumber = "23"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "4B3632B6-7E19-4C8D-AC30-6A48AD7B497A"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "calculateScore()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "BF79D9C9-C015-43DA-8F15-D3E3AACC00DD"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "calculateScore()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "BF79D9C9-C015-43DA-8F15-D3E3AACC00DD - 54345183e8594b3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundViewModel.calculateScore() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "BF79D9C9-C015-43DA-8F15-D3E3AACC00DD - f342b77c4885e120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, WISP_QUIZ.StoreResult) -&gt; Swift.Int in WISP_QUIZ.QuizPlaygroundViewModel.calculateScore() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "DB48135D-E072-49B0-B313-9377A90AB179"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "41"
+            endingLineNumber = "41"
+            landmarkName = "calculateScore()"
+            landmarkType = "7">
+            <Locations>
+               <Location
+                  uuid = "DB48135D-E072-49B0-B313-9377A90AB179 - 54345183e8594b3a"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "WISP_QUIZ.QuizPlaygroundViewModel.calculateScore() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "41"
+                  endingLineNumber = "41"
+                  offsetFromSymbolStart = "124">
+               </Location>
+               <Location
+                  uuid = "DB48135D-E072-49B0-B313-9377A90AB179 - f342b77c4885e120"
+                  shouldBeEnabled = "Yes"
+                  ignoreCount = "0"
+                  continueAfterRunningActions = "No"
+                  symbolName = "closure #1 (Swift.Int, WISP_QUIZ.StoreResult) -&gt; Swift.Int in WISP_QUIZ.QuizPlaygroundViewModel.calculateScore() -&gt; Swift.Array&lt;Swift.String&gt;"
+                  moduleName = "WISP QUIZ"
+                  usesParentBreakpointCondition = "Yes"
+                  urlString = "file:///Users/aksamitsah/Projects/RND/WISP%20QUIZ/WISP%20QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+                  startingColumnNumber = "9223372036854775807"
+                  endingColumnNumber = "9223372036854775807"
+                  startingLineNumber = "42"
+                  endingLineNumber = "42"
+                  offsetFromSymbolStart = "40">
+               </Location>
+            </Locations>
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "C58EDB14-0080-42AB-870C-1DF22F78450F"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "45"
+            endingLineNumber = "45"
+            landmarkName = "calculateScore()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "71170C0D-9135-4BB3-AE0E-EB5AA953F9F4"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/ViewModels/QuizPlaygroundViewModel.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "17"
+            endingLineNumber = "17"
+            landmarkName = "getScoreResult(totalScore:totalQs:)"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "7DAFE51A-01F3-4010-AD36-2D1013F3B42C"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizResultVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "39"
+            endingLineNumber = "39"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+      <BreakpointProxy
+         BreakpointExtensionID = "Xcode.Breakpoint.FileBreakpoint">
+         <BreakpointContent
+            uuid = "16CB98CA-2631-411D-8FD5-38DB3EA34615"
+            shouldBeEnabled = "No"
+            ignoreCount = "0"
+            continueAfterRunningActions = "No"
+            filePath = "WISP QUIZ/Views/QuizResultVC.swift"
+            startingColumnNumber = "9223372036854775807"
+            endingColumnNumber = "9223372036854775807"
+            startingLineNumber = "40"
+            endingLineNumber = "40"
+            landmarkName = "viewDidLoad()"
+            landmarkType = "7">
+         </BreakpointContent>
+      </BreakpointProxy>
+   </Breakpoints>
+</Bucket>
