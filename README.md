@@ -12,6 +12,7 @@
 
 
 - open WISP QUIZ.xcodeproj
+- Goto Target `WISP QUIZ` -> `ignIn & Compatability` select `team` & change  `package name`
 - Ready To Go...
 
 # Project Desctiptions: 
